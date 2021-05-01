@@ -13,18 +13,14 @@ const IntialState=[
         Name:"Annnnnaaaa",
         Phone:"9940866311"
     },
+   
     {
         Id:2,
-        Name:"Hariii",
-        Phone:"7010041125"
-    },
-    {
-        Id:3,
         Name:"Paapuuu",
         Phone:"6380323294"
     },
 ];
- const contactReducer=(state=IntialState,action)=>{
+export const contactReducer=(state=IntialState,action)=>{
     switch(action.type){
         case "ADD_CONTACT":
             state=[...state,action.payload]
