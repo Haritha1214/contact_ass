@@ -4,7 +4,7 @@ import { useParams } from "react-router";
 import {Link} from 'react-router-dom';
 import { useHistory } from 'react-router';
 
-const AddEdit = () => {
+const EditContact = () => {
   const { Id } = useParams();
   const history=useHistory();
   history.push("/")
