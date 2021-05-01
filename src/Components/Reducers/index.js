@@ -9,7 +9,7 @@ const IntialState=[
         Phone:"8838928320"
     },
     {
-        Id:2,
+        Id:1,
         Name:"Annnnnaaaa",
         Phone:"9940866311"
     },
